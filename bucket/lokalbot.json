@@ -1,0 +1,37 @@
+{
+    "version": "0.13.2",
+    "description": "Your personal context engine: bot-free local meeting notes, screen recall, dictation, autocomplete, and read-only MCP server.",
+    "homepage": "https://www.lokalbot.com/",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/stevyhacker/LokalBot/releases/download/v0.13.2/LokalBot-0.13.2-windows-x86_64.zip",
+            "hash": "8e232ec2cfece77dd3ea9990e0c6b7c40c6169e84ed1b3ee7f19515e0cfadbcf",
+            "extract_dir": "LokalBot-0.13.2-windows-x86_64"
+        }
+    },
+    "bin": [
+        "lokalbot-cli.exe"
+    ],
+    "shortcuts": [
+        [
+            "lokalbot.exe",
+            "LokalBot"
+        ]
+    ],
+    "notes": [
+        "LokalBot stores your library in %LOCALAPPDATA%\\LokalBot, so updating or uninstalling keeps your data.",
+        "Run 'lokalbot-cli --help' for CLI and MCP access (off by default in Settings -> AI agents)."
+    ],
+    "checkver": {
+        "github": "https://github.com/stevyhacker/LokalBot"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/stevyhacker/LokalBot/releases/download/v$version/LokalBot-$version-windows-x86_64.zip",
+                "extract_dir": "LokalBot-$version-windows-x86_64"
+            }
+        }
+    }
+}
