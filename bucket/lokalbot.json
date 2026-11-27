@@ -1,13 +1,13 @@
 {
-    "version": "0.14.1",
+    "version": "0.14.2",
     "description": "Your personal context engine: bot-free local meeting notes, screen recall, dictation, autocomplete, and read-only MCP server.",
     "homepage": "https://www.lokalbot.com/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/stevyhacker/LokalBot/releases/download/v0.14.1/LokalBot-0.14.1-windows-x86_64.zip",
-            "hash": "918484af34aaae5477cfab4933f829f6dbbe64a2ed8db75da8db3179524e5ca1",
-            "extract_dir": "LokalBot-0.14.1-windows-x86_64"
+            "url": "https://github.com/stevyhacker/LokalBot/releases/download/v0.14.2/LokalBot-0.14.2-windows-x86_64.zip",
+            "hash": "eeedc0c02515efe2474d311b7e676271ef78862b0f1f246a4b9eb540cba2344d",
+            "extract_dir": "LokalBot-0.14.2-windows-x86_64"
         }
     },
     "bin": [
